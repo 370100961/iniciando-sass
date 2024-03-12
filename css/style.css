@@ -1,0 +1,30 @@
+body {
+  background-color: #262626;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #22c55e;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 50px;
+}
+.card-item {
+  background-color: #ffffff;
+  padding: 25px;
+  color: #262626;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+@mixin flexGap($tamanhoGap){
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: #{$tamanhoGap}px;
+}
+

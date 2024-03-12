@@ -1,0 +1,30 @@
+@use 'variables' as var;
+@use 'mixins' as mx;
+@use 'functions' as f;
+
+body{
+    background-color: var.$color;
+    color: var.$white;
+}
+
+h3{
+    font-size: f.toRem(24px);
+    color: var.$green;
+}
+
+.card{
+    @include mx.flexGap(50);
+
+    &-item{
+        background-color: var.$white;
+        padding: 25px;
+        color: var.$color;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+footer{
+    @include mx.flex;
+}
